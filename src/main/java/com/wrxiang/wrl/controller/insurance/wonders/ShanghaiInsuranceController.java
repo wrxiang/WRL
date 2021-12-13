@@ -31,7 +31,7 @@ public class ShanghaiInsuranceController {
      */
     @PostMapping(value = { "/sendMessage" }, produces = { "application/json;charset=UTF-8" })
     @ResponseBody
-    @ApiOperation(value="医保接口调用", notes = "上海市医保动态库是32位,需要使用32位jdk，并将动态库文件放到jdk\bin目录")
+    @ApiOperation(value="医保接口调用", notes = "上海市医保动态库是32位,需要使用32位jdk，并将动态库文件放到jdk\\bin目录")
     public String sendMessage(@ApiParam(name="message", value = "消息入参") @RequestBody final String message){
 
         return shanghaiInsuranceService.sendMessage(message);
