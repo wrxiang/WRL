@@ -107,11 +107,6 @@
                     <mainClass>com.wrxiang.wrl.WrlApplication</mainClass>
                     <excludes>
                         <exclude>
-                            <goals>
-                                <goal>repackage</goal>
-                            </goals>
-                        </exclude>
-                        <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
