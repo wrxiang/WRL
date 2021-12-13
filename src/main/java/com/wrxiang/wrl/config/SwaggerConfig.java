@@ -41,7 +41,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Swagger接口文档")
+                .title("wrl接口文档")
                 .description("更多请咨询服务开发者wrxiang")
                 .contact(new Contact("wrxiang", "http://www.github.com/wrxiang/wrl", "rxhome@163.com"))
                 .version("1.0")
